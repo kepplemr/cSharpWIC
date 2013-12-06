@@ -1,0 +1,35 @@
+﻿| This test WIC tests the five arithmetic instructions (add, sub, mult, div, mod) in addition
+| to the instructions implemented earlier.
+  | Test add
+  get A
+  get B
+  push A
+  push B
+  add
+  pop Sum
+  put Sum
+  | Test sub
+  push A
+  push B
+  sub
+  pop Sub
+  put Sub
+  | Test mult
+  push A
+  push B
+  mult
+  pop Mult
+  put Mult
+  | Test div
+  push A
+  push B
+  div
+  pop Div
+  put Div
+  | Test mod
+  push A
+  push B
+  mod
+  pop Mod
+  put Mod
+  halt

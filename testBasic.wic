@@ -1,0 +1,16 @@
+﻿| This test WIC just gets 3 numbers, pushes them onto the stack, pops them off in reverse order,
+| then displays them back to the screen. Tests (get, push, pop, put, halt, nop).
+  get A
+  get B
+  get C
+  push A
+  push B
+  push C
+
+  pop A
+  pop B
+  pop C
+  put A
+  put B
+  put C
+  halt

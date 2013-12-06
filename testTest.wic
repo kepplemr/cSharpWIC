@@ -1,0 +1,47 @@
+﻿| This test WIC tests the six test instructions (tsteq, tstge, tstgt, tstle, tstlt, tstne) in addition
+| to the instructions implemented earlier.
+  get A
+  get B
+  push A
+  push B
+  sub
+  tsteq
+  | Print TSTEQ result
+  pop EQresult
+  put EQresult
+  push A
+  push B
+  sub
+  tstne
+  | Print TSTNE result
+  pop NEresult
+  put NEresult
+  push A
+  push B
+  sub
+  tstge
+  | Print TSTGE result
+  pop GEresult
+  put GEresult
+  push A
+  push B
+  sub
+  tstle
+  | Print TSTLE result
+  pop LEresult
+  put LEresult
+  push A
+  push B
+  sub
+  tstgt
+  | Print TSTGT result
+  pop GTresult
+  put GTresult
+  push A
+  push B
+  sub
+  tstlt
+  | Print TSTLT result
+  pop LTresult
+  put LTresult
+  halt
